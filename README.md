@@ -1,0 +1,13 @@
+- ¿Qué comando utilizaste en el paso 11? ¿Por qué? git reset --hard Head~1. Para perder los cambios realizados en la working copy
+- ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué? git reglof para ver los commits y git reset al commit correcto
+- El merge del paso 13, ¿Causó algún conflicto? ¿Por qué? No, ya que nos estamos trayendo a nuestra rama el fichero original pero nosotros lo tenemos modificado.  (es un merge con fast forward)
+- El merge del paso 19, ¿Causó algún conflicto? ¿Por qué? Si, ya que los cambios de ninguna de las 2 ramas estaban en master y difieren entre si. (es un merge sin fast forward)
+- El merge del paso 21, ¿Causó algún conflicto? ¿Por qué? No, estamos absorviendo el contenido de una rama y git sabe que se debe quedar con los cambios que trae desde la nueva en caso de que el fichero no este editado en las 2 (es un merge con fast forward)
+- ¿Qué comando o comandos utilizaste en el paso 25? git log --graph --pretty=oneline
+- El merge del paso 26, ¿Podría ser fast forward? ¿Por qué? Sí, ya que no ha generado conflictos al no estar el fichero modificado en las 2 ramas.
+- ¿Qué comando o comandos utilizaste en el paso 27? git reset Head~1
+- ¿Qué comando o comandos utilizaste en el paso 28? git restore git-nuestro.md
+- ¿Qué comando o comandos utilizaste en el paso 29? git branch -D title
+- ¿Qué comando o comandos utilizaste en el paso 30? git reflog git reset al commit correcto
+- ¿Qué comando o comandos usaste en el paso 32? git reflog para conocer el comit, git reset --hard commit
+- ¿Qué comando o comandos usaste en el punto 33? git reflog para conocer el comit, git reset --hard commit (queria hacerlo con git reset Head~1 porque me parecia buena forma pero me ha dado error)
